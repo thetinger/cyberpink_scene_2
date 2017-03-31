@@ -1,0 +1,1067 @@
+﻿Log file open, 03/28/17 14:02:14
+LogInit:Display: Running engine for game: cyberpink_scene_2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-75106068) SRandInit(-75106068).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.092152
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.28-03.02.15:892][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.28-03.02.15:892][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.28-03.02.15:933][  0]LogInit: Computer: DESKTOP-73H95M6
+[2017.03.28-03.02.15:933][  0]LogInit: User: marcu
+[2017.03.28-03.02.15:933][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.28-03.02.15:933][  0]LogInit: High frequency timer resolution =3.320350 MHz
+[2017.03.28-03.02.15:933][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.28-03.02.15:933][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.28-03.02.15:933][  0]LogMemory: Process Physical Memory: 266.42 MB used, 266.42 MB peak
+[2017.03.28-03.02.15:933][  0]LogMemory: Process Virtual Memory: 262.74 MB used, 262.74 MB peak
+[2017.03.28-03.02.15:933][  0]LogMemory: Physical Memory: 12664.16 MB used,  3616.99 MB free, 16281.15 MB total
+[2017.03.28-03.02.15:933][  0]LogMemory: Virtual Memory: 644.47 MB used,  3616.99 MB free, 134217728.00 MB total
+[2017.03.28-03.02.16:026][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2017.03.28-03.02.16:966][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.28-03.02.16:990][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.03.28-03.02.16:990][  0]LogD3D11RHI:       4073/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+[2017.03.28-03.02.16:995][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2017.03.28-03.02.16:995][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.28-03.02.16:997][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.28-03.02.16:997][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.28-03.02.16:997][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.28-03.02.17:006][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.28-03.02.17:006][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.28-03.02.17:006][  0]LogWindows: EnumDisplayDevices:
+[2017.03.28-03.02.17:006][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.03.28-03.02.17:007][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.03.28-03.02.17:008][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.03.28-03.02.17:010][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.03.28-03.02.17:011][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.03.28-03.02.17:013][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.03.28-03.02.17:015][  0]LogWindows:    6. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.03.28-03.02.17:016][  0]LogWindows:    7. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.03.28-03.02.17:016][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.03.28-03.02.17:016][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.03.28-03.02.17:016][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.3.3 (internal:21.19.525.258, unified:21.19.525.258)
+[2017.03.28-03.02.17:017][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.03.28-03.02.17:017][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.28-03.02.17:230][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.28-03.02.17:243][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.03.28-03.02.17:246][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Intermediate/Shaders/WorkingDirectory/42388/).
+[2017.03.28-03.02.17:247][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marcu/AppData/Local/Temp/UnrealShaderWorkingDir/4F0945984D97BED8FA070493760E68B5/'.
+[2017.03.28-03.02.17:247][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.28-03.02.18:662][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.28-03.02.18:724][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.28-03.02.18:786][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.28-03.02.18:852][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.28-03.02.18:913][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.28-03.02.18:972][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.28-03.02.19:053][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.28-03.02.19:122][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.28-03.02.19:170][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.28-03.02.19:233][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.28-03.02.19:292][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.28-03.02.19:351][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.28-03.02.19:409][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.28-03.02.19:472][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.28-03.02.19:534][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.28-03.02.19:649][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.28-03.02.19:649][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.28-03.02.19:690][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.28-03.02.19:793][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.28-03.02.19:828][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.28-03.02.19:888][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.28-03.02.19:952][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.28-03.02.20:023][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.28-03.02.20:110][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.28-03.02.20:110][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.28-03.02.20:572][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.28-03.02.20:641][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/marcu/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.28-03.02.20:641][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/marcu/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.28-03.02.20:641][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.28-03.02.20:641][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.28-03.02.20:641][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.28-03.02.20:641][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.28-03.02.20:660][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.28-03.02.20:673][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marcu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.28-03.02.20:684][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.28-03.02.20:684][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.28-03.02.20:684][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.28-03.02.21:100][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.28-03.02.21:105][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.28-03.02.21:341][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.28-03.02.21:387][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.28-03.02.21:443][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.28-03.02.21:443][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.28-03.02.21:443][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.28-03.02.22:146][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: cyberpink_scene_2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1803789287
+[2017.03.28-03.02.22:189][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.03.28-03.02.22:250][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.042103 seconds
+[2017.03.28-03.02.22:256][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.28-03.02.22:256][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.28-03.02.22:256][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.28-03.02.22:314][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.28-03.02.30:909][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.28-03.02.30:969][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.28-03.02.31:946][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.28-03.02.32:569][  0]SourceControl: Info Source control is disabled
+[2017.03.28-03.02.32:571][  0]SourceControl: Info Source control is disabled
+[2017.03.28-03.02.32:646][  0]SourceControl: Info Source control is disabled
+[2017.03.28-03.02.32:756][  0]SourceControl: Info Source control is disabled
+[2017.03.28-03.02.35:243][  0]LogEngine: Initializing Engine...
+[2017.03.28-03.02.35:277][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.28-03.02.35:592][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.28-03.02.35:666][  0]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.02.35:716][  0]LogInit: FAudioDevice initialized.
+[2017.03.28-03.02.35:749][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/marcu/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.28-03.02.35:769][  0]LogInit: Texture streaming: Enabled
+[2017.03.28-03.02.35:965][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.28-03.02.36:185][  0]LogInit: Transaction tracking system initialized
+[2017.03.28-03.02.36:720][  0]BlueprintLog: New page: Editor Load
+[2017.03.28-03.02.38:718][  0]LocalizationService: Info Localization service is disabled
+[2017.03.28-03.02.40:122][  0]LogConsoleResponse:Display: 
+[2017.03.28-03.02.41:324][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.28-03.02.41:324][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.28-03.02.42:287][  0]LogFileCache: Scanning file cache for directory 'D:/The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/' took 0.02s
+[2017.03.28-03.02.44:341][  0]SourceControl: Info Source control is disabled
+[2017.03.28-03.02.44:341][  0]Cmd: MAP LOAD FILE="../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.28-03.02.44:484][  0]LightingResults: New page: Lighting Build
+[2017.03.28-03.02.44:535][  0]MapCheck: New page: Map Check
+[2017.03.28-03.02.44:535][  0]LightingResults: New page: Lighting Build
+[2017.03.28-03.02.46:133][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.03.28-03.02.46:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.28-03.02.46:146][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.28-03.02.46:220][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.447ms to complete.
+[2017.03.28-03.02.46:220][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.879
+[2017.03.28-03.02.46:351][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.28-03.02.46:628][  0]LogCollectionManager: Loaded 0 collections in 0.002135 seconds
+[2017.03.28-03.02.46:740][  0]LogFileCache: Scanning file cache for directory 'D:/The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/Collections/' took 0.01s
+[2017.03.28-03.02.46:740][  0]LogFileCache: Scanning file cache for directory 'D:/The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Developers/marcu/Collections/' took 0.01s
+[2017.03.28-03.02.46:740][  0]LogFileCache: Scanning file cache for directory 'D:/The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Collections/' took 0.01s
+[2017.03.28-03.02.46:740][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.28-03.02.46:750][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2244 classes and 450 folders.
+[2017.03.28-03.02.46:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.28-03.02.46:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.28-03.02.46:813][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.03.28-03.02.48:509][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.03.28-03.02.48:572][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.03.28-03.02.48:642][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.28-03.02.48:649][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.28-03.02.48:723][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.03.28-03.02.48:723][  0]LogLoad: (Engine Initialization) Total time: 36.20 seconds
+[2017.03.28-03.02.48:723][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.27 seconds
+[2017.03.28-03.02.48:723][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.28-03.02.48:723][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.28-03.02.49:064][  0]LogOcInput: OculusInput pre-init called
+[2017.03.28-03.02.49:087][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.28-03.02.49:088][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.28-03.02.49:092][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.28-03.02.49:119][  0]LogSlate: Took 0.021932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.28-03.02.49:367][  0]LogRenderer: Reallocating scene render targets to support 1160x588 NumSamples 1 (Frame:2).
+[2017.03.28-03.02.49:487][  1]LogAssetRegistry: Asset discovery search completed in 27.3198 seconds
+[2017.03.28-03.02.49:487][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.03.28-03.02.49:487][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.03.28-03.02.53:803][ 13]LogSlate: Took 0.325094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.28-03.03.08:322][616]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.28-03.03.10:263][616]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.03.10:282][616]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.28-03.03.10:307][616]Cmd: MAP LOAD FILE="../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.28-03.03.10:307][616]LightingResults: New page: Lighting Build
+[2017.03.28-03.03.10:309][616]LoadErrors: New page: Loading map: dodson_street_night.umap
+[2017.03.28-03.03.10:344][616]MapCheck: New page: Map Check
+[2017.03.28-03.03.10:344][616]LightingResults: New page: Lighting Build
+[2017.03.28-03.03.10:386][616]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.28-03.03.10:414][616]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.28-03.03.10:497][616]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.191ms to complete.
+[2017.03.28-03.03.10:499][616]LogFileHelpers: Loading map 'dodson_street_night' took 0.193
+[2017.03.28-03.03.38:363][560]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin3)
+[2017.03.28-03.03.38:849][595]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin3)
+[2017.03.28-03.04.16:091][573]Cmd: TRANSACTION UNDO
+[2017.03.28-03.04.16:091][573]LogEditorTransaction: Undo Move Actors
+[2017.03.28-03.04.16:112][573]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.BoxBrush43.BrushComponent0) Component already registered.
+[2017.03.28-03.04.16:119][573]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
+[2017.03.28-03.04.16:119][573]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.BoxBrush82.BrushComponent0) Component already registered.
+[2017.03.28-03.04.16:119][573]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.BoxBrush84.BrushComponent0) Component already registered.
+[2017.03.28-03.04.16:119][573]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.BoxBrush89.BrushComponent0) Component already registered.
+[2017.03.28-03.04.16:119][573]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.BoxBrush90.BrushComponent0) Component already registered.
+[2017.03.28-03.04.16:120][573]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.BoxBrush28.BrushComponent0) Component already registered.
+[2017.03.28-03.04.16:209][573]LogSlate: Took 0.000482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.28-03.06.09:684][900]MapCheck: New page: Map Check
+[2017.03.28-03.06.09:750][900]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.28-03.06.09:758][900]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.28-03.06.10:165][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.28-03.06.10:199][900]LogTemp:Display: Added material ShaderMap 0x000001A27E55D280 with Material 0x000001A24A0F9900 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:217][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000001A27E55D280
+[2017.03.28-03.06.10:219][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.03.28-03.06.10:221][900]LogTemp:Display: Added material ShaderMap 0x000001A27E55EB00 with Material 0x000001A24A0F8700 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:222][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, GameThreadShaderMap 0x000001A27E55EB00
+[2017.03.28-03.06.10:224][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2017.03.28-03.06.10:225][900]LogTemp:Display: Added material ShaderMap 0x000001A27E55DD00 with Material 0x000001A2683E7A00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:227][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Floor, GameThreadShaderMap 0x000001A27E55DD00
+[2017.03.28-03.06.10:229][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Beveled, compiling. 
+[2017.03.28-03.06.10:230][900]LogTemp:Display: Added material ShaderMap 0x000001A27E55F900 with Material 0x000001A2683E6500 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:232][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Brick_Clay_Beveled, GameThreadShaderMap 0x000001A27E55F900
+[2017.03.28-03.06.10:234][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.03.28-03.06.10:237][900]LogTemp:Display: Added material ShaderMap 0x000001A27E55C800 with Material 0x000001A2683E6E00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:239][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_UE4Man_Body, GameThreadShaderMap 0x000001A27E55C800
+[2017.03.28-03.06.10:242][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.03.28-03.06.10:244][900]LogTemp:Display: Added material ShaderMap 0x000001A2683A5980 with Material 0x000001A27A775C00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:246][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, GameThreadShaderMap 0x000001A2683A5980
+[2017.03.28-03.06.10:248][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock_Marble_Polished, compiling. 
+[2017.03.28-03.06.10:249][900]LogTemp:Display: Added material ShaderMap 0x000001A2683A7900 with Material 0x000001A248C8C100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:251][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Rock_Marble_Polished, GameThreadShaderMap 0x000001A2683A7900
+[2017.03.28-03.06.10:253][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Old, compiling. 
+[2017.03.28-03.06.10:254][900]LogTemp:Display: Added material ShaderMap 0x000001A2683A5280 with Material 0x000001A248C8D900 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:256][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Brick_Clay_Old, GameThreadShaderMap 0x000001A2683A5280
+[2017.03.28-03.06.10:258][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2017.03.28-03.06.10:259][900]LogTemp:Display: Added material ShaderMap 0x000001A2683A5600 with Material 0x000001A248C8DC00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:260][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Wall, GameThreadShaderMap 0x000001A2683A5600
+[2017.03.28-03.06.10:263][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
+[2017.03.28-03.06.10:264][900]LogTemp:Display: Added material ShaderMap 0x000001A2683A7200 with Material 0x000001A248C8C700 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:265][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Concrete_Tiles, GameThreadShaderMap 0x000001A2683A7200
+[2017.03.28-03.06.10:268][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.03.28-03.06.10:269][900]LogTemp:Display: Added material ShaderMap 0x000001A268C2B580 with Material 0x000001A210711C00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:271][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, GameThreadShaderMap 0x000001A268C2B580
+[2017.03.28-03.06.10:273][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2017.03.28-03.06.10:274][900]LogTemp:Display: Added material ShaderMap 0x000001A268C28100 with Material 0x000001A210710700 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:275][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Chair, GameThreadShaderMap 0x000001A268C28100
+[2017.03.28-03.06.10:278][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Emissive, compiling. 
+[2017.03.28-03.06.10:279][900]LogTemp:Display: Added material ShaderMap 0x000001A268C2BC80 with Material 0x000001A210710100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:280][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Emissive, GameThreadShaderMap 0x000001A268C2BC80
+[2017.03.28-03.06.10:283][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy emissive_pink_panel, compiling. 
+[2017.03.28-03.06.10:283][900]LogTemp:Display: Added material ShaderMap 0x000001A2015A0800 with Material 0x000001A27E7DA500 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:285][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy emissive_pink_panel, GameThreadShaderMap 0x000001A2015A0800
+[2017.03.28-03.06.10:289][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Emissive2, compiling. 
+[2017.03.28-03.06.10:290][900]LogTemp:Display: Added material ShaderMap 0x000001A2015A0B80 with Material 0x000001A27E7DB100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:292][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Emissive2, GameThreadShaderMap 0x000001A2015A0B80
+[2017.03.28-03.06.10:295][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy emmissive_panel, compiling. 
+[2017.03.28-03.06.10:296][900]LogTemp:Display: Added material ShaderMap 0x000001A2015A0480 with Material 0x000001A27E7D9300 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:298][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy emmissive_panel, GameThreadShaderMap 0x000001A2015A0480
+[2017.03.28-03.06.10:302][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
+[2017.03.28-03.06.10:303][900]LogTemp:Display: Added material ShaderMap 0x000001A2015A1D00 with Material 0x000001A27E7DB700 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:305][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Chrome, GameThreadShaderMap 0x000001A2015A1D00
+[2017.03.28-03.06.10:308][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.03.28-03.06.10:309][900]LogTemp:Display: Added material ShaderMap 0x000001A248C76E80 with Material 0x000001A27E7DB400 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:311][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy BasicShapeMaterial, GameThreadShaderMap 0x000001A248C76E80
+[2017.03.28-03.06.10:313][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_LessChrome, compiling. 
+[2017.03.28-03.06.10:314][900]LogTemp:Display: Added material ShaderMap 0x000001A248C77900 with Material 0x000001A27E7D8100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:316][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_LessChrome, GameThreadShaderMap 0x000001A248C77900
+[2017.03.28-03.06.10:319][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2017.03.28-03.06.10:320][900]LogTemp:Display: Added material ShaderMap 0x000001A248C74F00 with Material 0x000001A24A1E8D00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:321][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, GameThreadShaderMap 0x000001A248C74F00
+[2017.03.28-03.06.10:324][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_AssetPlatform, compiling. 
+[2017.03.28-03.06.10:324][900]LogTemp:Display: Added material ShaderMap 0x000001A248C76080 with Material 0x000001A24A1E8A00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:326][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_AssetPlatform, GameThreadShaderMap 0x000001A248C76080
+[2017.03.28-03.06.10:328][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2017.03.28-03.06.10:329][900]LogTemp:Display: Added material ShaderMap 0x000001A248C75600 with Material 0x000001A24A1E8100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:331][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Walnut, GameThreadShaderMap 0x000001A248C75600
+[2017.03.28-03.06.10:333][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.03.28-03.06.10:334][900]LogTemp:Display: Added material ShaderMap 0x000001A229BF6400 with Material 0x000001A216BB4A00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:336][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Glass, GameThreadShaderMap 0x000001A229BF6400
+[2017.03.28-03.06.10:339][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.03.28-03.06.10:339][900]LogTemp:Display: Added material ShaderMap 0x000001A229BF4F00 with Material 0x000001A216BB4700 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:341][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Oak, GameThreadShaderMap 0x000001A229BF4F00
+[2017.03.28-03.06.10:344][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2017.03.28-03.06.10:345][900]LogTemp:Display: Added material ShaderMap 0x000001A216953200 with Material 0x000001A216BB6800 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:346][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Copper, GameThreadShaderMap 0x000001A216953200
+[2017.03.28-03.06.10:349][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy emmissive_panel_lowintensity, compiling. 
+[2017.03.28-03.06.10:349][900]LogTemp:Display: Added material ShaderMap 0x000001A273BDCB80 with Material 0x000001A20BF12800 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.10:351][900]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy emmissive_panel_lowintensity, GameThreadShaderMap 0x000001A273BDCB80
+[2017.03.28-03.06.12:368][900]LogTemp:Display: Finished compile of shader map 0x000001A27E55DD00
+[2017.03.28-03.06.12:368][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Floor complete, GameThreadShaderMap 0x000001A27E55DD00, marking material FDebugViewModeMaterialProxy M_Basic_Floor as finished
+[2017.03.28-03.06.12:368][900]LogTemp:Display: Marking material as finished 0x000001A2683E7A00
+[2017.03.28-03.06.12:480][900]LogTemp:Display: Finished compile of shader map 0x000001A27E55F900
+[2017.03.28-03.06.12:480][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Brick_Clay_Beveled complete, GameThreadShaderMap 0x000001A27E55F900, marking material FDebugViewModeMaterialProxy M_Brick_Clay_Beveled as finished
+[2017.03.28-03.06.12:480][900]LogTemp:Display: Marking material as finished 0x000001A2683E6500
+[2017.03.28-03.06.12:507][900]LogTemp:Display: Finished compile of shader map 0x000001A27E55EB00
+[2017.03.28-03.06.12:507][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x000001A27E55EB00, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 as finished
+[2017.03.28-03.06.12:507][900]LogTemp:Display: Marking material as finished 0x000001A24A0F8700
+[2017.03.28-03.06.12:520][900]LogTemp:Display: Finished compile of shader map 0x000001A27E55D280
+[2017.03.28-03.06.12:520][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000001A27E55D280, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.28-03.06.12:520][900]LogTemp:Display: Marking material as finished 0x000001A24A0F9900
+[2017.03.28-03.06.12:753][900]LogTemp:Display: Finished compile of shader map 0x000001A27E55C800
+[2017.03.28-03.06.12:754][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body complete, GameThreadShaderMap 0x000001A27E55C800, marking material FDebugViewModeMaterialProxy M_UE4Man_Body as finished
+[2017.03.28-03.06.12:754][900]LogTemp:Display: Marking material as finished 0x000001A2683E6E00
+[2017.03.28-03.06.12:766][900]LogTemp:Display: Finished compile of shader map 0x000001A2683A5980
+[2017.03.28-03.06.12:767][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_ChestLogo complete, GameThreadShaderMap 0x000001A2683A5980, marking material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo as finished
+[2017.03.28-03.06.12:767][900]LogTemp:Display: Marking material as finished 0x000001A27A775C00
+[2017.03.28-03.06.12:836][900]LogTemp:Display: Finished compile of shader map 0x000001A2683A7900
+[2017.03.28-03.06.12:836][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Rock_Marble_Polished complete, GameThreadShaderMap 0x000001A2683A7900, marking material FDebugViewModeMaterialProxy M_Rock_Marble_Polished as finished
+[2017.03.28-03.06.12:836][900]LogTemp:Display: Marking material as finished 0x000001A248C8C100
+[2017.03.28-03.06.12:851][900]LogTemp:Display: Finished compile of shader map 0x000001A2683A5280
+[2017.03.28-03.06.12:851][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Brick_Clay_Old complete, GameThreadShaderMap 0x000001A2683A5280, marking material FDebugViewModeMaterialProxy M_Brick_Clay_Old as finished
+[2017.03.28-03.06.12:851][900]LogTemp:Display: Marking material as finished 0x000001A248C8D900
+[2017.03.28-03.06.12:887][900]LogTemp:Display: Finished compile of shader map 0x000001A2683A5600
+[2017.03.28-03.06.12:887][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Wall complete, GameThreadShaderMap 0x000001A2683A5600, marking material FDebugViewModeMaterialProxy M_Basic_Wall as finished
+[2017.03.28-03.06.12:887][900]LogTemp:Display: Marking material as finished 0x000001A248C8DC00
+[2017.03.28-03.06.13:051][900]LogTemp:Display: Finished compile of shader map 0x000001A268C2BC80
+[2017.03.28-03.06.13:051][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Emissive complete, GameThreadShaderMap 0x000001A268C2BC80, marking material FDebugViewModeMaterialProxy Emissive as finished
+[2017.03.28-03.06.13:051][900]LogTemp:Display: Marking material as finished 0x000001A210710100
+[2017.03.28-03.06.13:168][900]LogTemp:Display: Finished compile of shader map 0x000001A268C2B580
+[2017.03.28-03.06.13:168][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished complete, GameThreadShaderMap 0x000001A268C2B580, marking material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished as finished
+[2017.03.28-03.06.13:168][900]LogTemp:Display: Marking material as finished 0x000001A210711C00
+[2017.03.28-03.06.13:186][900]LogTemp:Display: Finished compile of shader map 0x000001A268C28100
+[2017.03.28-03.06.13:186][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Chair complete, GameThreadShaderMap 0x000001A268C28100, marking material FDebugViewModeMaterialProxy M_Chair as finished
+[2017.03.28-03.06.13:186][900]LogTemp:Display: Marking material as finished 0x000001A210710700
+[2017.03.28-03.06.13:200][900]LogTemp:Display: Finished compile of shader map 0x000001A2683A7200
+[2017.03.28-03.06.13:200][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Concrete_Tiles complete, GameThreadShaderMap 0x000001A2683A7200, marking material FDebugViewModeMaterialProxy M_Concrete_Tiles as finished
+[2017.03.28-03.06.13:200][900]LogTemp:Display: Marking material as finished 0x000001A248C8C700
+[2017.03.28-03.06.13:221][900]LogTemp:Display: Finished compile of shader map 0x000001A2015A0800
+[2017.03.28-03.06.13:221][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy emissive_pink_panel complete, GameThreadShaderMap 0x000001A2015A0800, marking material FDebugViewModeMaterialProxy emissive_pink_panel as finished
+[2017.03.28-03.06.13:221][900]LogTemp:Display: Marking material as finished 0x000001A27E7DA500
+[2017.03.28-03.06.13:342][900]LogTemp:Display: Finished compile of shader map 0x000001A2015A0B80
+[2017.03.28-03.06.13:342][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Emissive2 complete, GameThreadShaderMap 0x000001A2015A0B80, marking material FDebugViewModeMaterialProxy Emissive2 as finished
+[2017.03.28-03.06.13:342][900]LogTemp:Display: Marking material as finished 0x000001A27E7DB100
+[2017.03.28-03.06.13:361][900]LogTemp:Display: Finished compile of shader map 0x000001A2015A0480
+[2017.03.28-03.06.13:361][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy emmissive_panel complete, GameThreadShaderMap 0x000001A2015A0480, marking material FDebugViewModeMaterialProxy emmissive_panel as finished
+[2017.03.28-03.06.13:361][900]LogTemp:Display: Marking material as finished 0x000001A27E7D9300
+[2017.03.28-03.06.13:376][900]LogTemp:Display: Finished compile of shader map 0x000001A248C76E80
+[2017.03.28-03.06.13:376][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BasicShapeMaterial complete, GameThreadShaderMap 0x000001A248C76E80, marking material FDebugViewModeMaterialProxy BasicShapeMaterial as finished
+[2017.03.28-03.06.13:376][900]LogTemp:Display: Marking material as finished 0x000001A27E7DB400
+[2017.03.28-03.06.13:476][900]LogTemp:Display: Finished compile of shader map 0x000001A2015A1D00
+[2017.03.28-03.06.13:476][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Chrome complete, GameThreadShaderMap 0x000001A2015A1D00, marking material FDebugViewModeMaterialProxy M_Metal_Chrome as finished
+[2017.03.28-03.06.13:476][900]LogTemp:Display: Marking material as finished 0x000001A27E7DB700
+[2017.03.28-03.06.13:547][900]LogTemp:Display: Finished compile of shader map 0x000001A248C76080
+[2017.03.28-03.06.13:547][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_AssetPlatform complete, GameThreadShaderMap 0x000001A248C76080, marking material FDebugViewModeMaterialProxy M_AssetPlatform as finished
+[2017.03.28-03.06.13:547][900]LogTemp:Display: Marking material as finished 0x000001A24A1E8A00
+[2017.03.28-03.06.13:604][900]LogTemp:Display: Finished compile of shader map 0x000001A248C77900
+[2017.03.28-03.06.13:604][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_LessChrome complete, GameThreadShaderMap 0x000001A248C77900, marking material FDebugViewModeMaterialProxy M_Metal_LessChrome as finished
+[2017.03.28-03.06.13:604][900]LogTemp:Display: Marking material as finished 0x000001A27E7D8100
+[2017.03.28-03.06.13:716][900]LogTemp:Display: Finished compile of shader map 0x000001A248C74F00
+[2017.03.28-03.06.13:716][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Burnished_Steel complete, GameThreadShaderMap 0x000001A248C74F00, marking material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel as finished
+[2017.03.28-03.06.13:716][900]LogTemp:Display: Marking material as finished 0x000001A24A1E8D00
+[2017.03.28-03.06.13:717][900]LogTemp:Display: Finished compile of shader map 0x000001A229BF6400
+[2017.03.28-03.06.13:718][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Glass complete, GameThreadShaderMap 0x000001A229BF6400, marking material FDebugViewModeMaterialProxy M_Glass as finished
+[2017.03.28-03.06.13:718][900]LogTemp:Display: Marking material as finished 0x000001A216BB4A00
+[2017.03.28-03.06.13:815][900]LogTemp:Display: Finished compile of shader map 0x000001A248C75600
+[2017.03.28-03.06.13:815][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Walnut complete, GameThreadShaderMap 0x000001A248C75600, marking material FDebugViewModeMaterialProxy M_Wood_Walnut as finished
+[2017.03.28-03.06.13:815][900]LogTemp:Display: Marking material as finished 0x000001A24A1E8100
+[2017.03.28-03.06.13:886][900]LogTemp:Display: Finished compile of shader map 0x000001A273BDCB80
+[2017.03.28-03.06.13:886][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy emmissive_panel_lowintensity complete, GameThreadShaderMap 0x000001A273BDCB80, marking material FDebugViewModeMaterialProxy emmissive_panel_lowintensity as finished
+[2017.03.28-03.06.13:886][900]LogTemp:Display: Marking material as finished 0x000001A20BF12800
+[2017.03.28-03.06.13:925][900]LogTemp:Display: Finished compile of shader map 0x000001A229BF4F00
+[2017.03.28-03.06.13:925][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Oak complete, GameThreadShaderMap 0x000001A229BF4F00, marking material FDebugViewModeMaterialProxy M_Wood_Oak as finished
+[2017.03.28-03.06.13:925][900]LogTemp:Display: Marking material as finished 0x000001A216BB4700
+[2017.03.28-03.06.14:001][900]LogTemp:Display: Finished compile of shader map 0x000001A216953200
+[2017.03.28-03.06.14:001][900]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Copper complete, GameThreadShaderMap 0x000001A216953200, marking material FDebugViewModeMaterialProxy M_Metal_Copper as finished
+[2017.03.28-03.06.14:001][900]LogTemp:Display: Marking material as finished 0x000001A216BB6800
+[2017.03.28-03.06.14:006][900]TextureStreamingBuild:Display: Compiling optional shaders took 3.847 seconds.
+[2017.03.28-03.06.14:048][900]LogLevel:Display: Export Material TexCoord Scales took 0.043 seconds.
+[2017.03.28-03.06.14:098][900]TextureStreamingBuild:Display: Build Texture Streaming took 0.047 seconds.
+[2017.03.28-03.06.14:194][900]LightingResults: New page: Lighting Build - 29 Mar 2017 1:06:14 am
+[2017.03.28-03.06.14:389][900]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.28-03.06.14:743][900]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.28-03.06.14:763][900]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.28-03.06.15:790][900]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.28-03.06.15:791][900]LogSwarmInterface: [TryOpenConnection] Local Process ID is 42388
+[2017.03.28-03.06.18:382][900]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.03.28-03.06.18:397][900]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.28-03.06.18:397][900]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.28-03.06.18:397][900]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.28-03.06.18:397][900]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.28-03.06.18:397][900]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.28-03.06.18:833][900]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.28-03.06.18:833][900]MapCheck: New page: dodson_street_night - 29 Mar 2017 1:06:18 am
+[2017.03.28-03.06.18:955][900]MapCheck:Warning: Warning callelevator_opendoor_169 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.18:955][900]MapCheck:Warning: Warning callelevator_opendoor_169 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.18:955][900]MapCheck:Warning: Warning callelevator_opendooraboveground_137 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.18:955][900]MapCheck:Warning: Warning callelevator_opendooraboveground_137 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.18:955][900]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.03.28-03.06.19:059][900]MapCheck: Info Map check complete: 1 Error(s), 4 Warning(s), took 225.826ms to complete.
+[2017.03.28-03.06.19:082][900]LogEditorBuildUtils: Build time 0:09
+[2017.03.28-03.06.21:706][999]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.03.28-03.06.21:706][999]LightingResults: Info <None> Lightmap UV are overlapping by 1.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.28-03.06.22:497][ 36]LightingResults:Warning: Warning insidedoor Object has wrapping UVs.
+[2017.03.28-03.06.22:621][ 44]Job is a success!
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.03.28-03.06.23:305][ 45]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.03.28-03.06.23:383][ 45]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2017.03.28-03.06.23:383][ 45]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2017.03.28-03.06.23:383][ 45]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2017.03.28-03.06.23:452][ 45]Lightmass on DESKTOP-73H95M6: 3.14 sec total, 291 ms importing, 21 ms setup, 404 ms photons, 2.27 sec processing, 0 ms extra exporting [382/382 mappings]. Threads: 15.7 sec total, 7.32 sec processing.
+[2017.03.28-03.06.23:501][ 45]LogStaticLightingSystem: Illumination: 9.31 sec (379 ms encoding lightmaps, 72 ms encoding shadowmaps)
+[2017.03.28-03.06.23:501][ 45]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.03.28-03.06.23:501][ 45]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.2 MB streaming, 0.7 MB non-streaming), 3 textures
+[2017.03.28-03.06.24:365][ 45]DumpUnbuiltLightIteractions
+[2017.03.28-03.06.24:365][ 45]Lights with unbuilt interactions: 0
+[2017.03.28-03.06.24:365][ 45]
+[2017.03.28-03.06.24:365][ 45]Primitives with unbuilt interactions: 0
+[2017.03.28-03.06.24:387][ 46]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.28-03.06.24:387][ 46]MapCheck: New page: dodson_street_night - 29 Mar 2017 1:06:24 am
+[2017.03.28-03.06.24:561][ 46]MapCheck:Warning: Warning callelevator_opendoor_169 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.24:561][ 46]MapCheck:Warning: Warning callelevator_opendoor_169 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.24:561][ 46]MapCheck:Warning: Warning callelevator_opendooraboveground_137 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.24:561][ 46]MapCheck:Warning: Warning callelevator_opendooraboveground_137 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.24:648][ 46]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 260.326ms to complete.
+[2017.03.28-03.06.29:621][569]MapCheck: New page: Map Check
+[2017.03.28-03.06.29:658][569]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.28-03.06.29:658][569]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.28-03.06.30:002][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.28-03.06.30:003][569]LogTemp:Display: Added material ShaderMap 0x000001A262B83200 with Material 0x000001A24A174D00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:005][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000001A262B83200
+[2017.03.28-03.06.30:007][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.03.28-03.06.30:008][569]LogTemp:Display: Added material ShaderMap 0x000001A262B82B00 with Material 0x000001A24A175F00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:010][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, GameThreadShaderMap 0x000001A262B82B00
+[2017.03.28-03.06.30:014][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2017.03.28-03.06.30:015][569]LogTemp:Display: Added material ShaderMap 0x000001A216953580 with Material 0x000001A24A175000 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:017][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Floor, GameThreadShaderMap 0x000001A216953580
+[2017.03.28-03.06.30:021][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Beveled, compiling. 
+[2017.03.28-03.06.30:022][569]LogTemp:Display: Added material ShaderMap 0x000001A229BF4B80 with Material 0x000001A24A175C00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:025][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Brick_Clay_Beveled, GameThreadShaderMap 0x000001A229BF4B80
+[2017.03.28-03.06.30:029][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.03.28-03.06.30:034][569]LogTemp:Display: Added material ShaderMap 0x000001A229BF4F00 with Material 0x000001A27EBAC100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:038][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_UE4Man_Body, GameThreadShaderMap 0x000001A229BF4F00
+[2017.03.28-03.06.30:042][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.03.28-03.06.30:044][569]LogTemp:Display: Added material ShaderMap 0x000001A2015A1600 with Material 0x000001A210713A00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:047][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, GameThreadShaderMap 0x000001A2015A1600
+[2017.03.28-03.06.30:051][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock_Marble_Polished, compiling. 
+[2017.03.28-03.06.30:053][569]LogTemp:Display: Added material ShaderMap 0x000001A2015A0100 with Material 0x000001A24A1E8A00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:055][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Rock_Marble_Polished, GameThreadShaderMap 0x000001A2015A0100
+[2017.03.28-03.06.30:059][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Old, compiling. 
+[2017.03.28-03.06.30:060][569]LogTemp:Display: Added material ShaderMap 0x000001A2015A0F00 with Material 0x000001A24A1EAB00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:063][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Brick_Clay_Old, GameThreadShaderMap 0x000001A2015A0F00
+[2017.03.28-03.06.30:067][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2017.03.28-03.06.30:068][569]LogTemp:Display: Added material ShaderMap 0x000001A2015A2400 with Material 0x000001A24A1E8100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:071][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Wall, GameThreadShaderMap 0x000001A2015A2400
+[2017.03.28-03.06.30:075][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
+[2017.03.28-03.06.30:077][569]LogTemp:Display: Added material ShaderMap 0x000001A27E55C100 with Material 0x000001A24A1E9C00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:079][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Concrete_Tiles, GameThreadShaderMap 0x000001A27E55C100
+[2017.03.28-03.06.30:083][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.03.28-03.06.30:084][569]LogTemp:Display: Added material ShaderMap 0x000001A27E55D280 with Material 0x000001A27E21D900 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:088][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, GameThreadShaderMap 0x000001A27E55D280
+[2017.03.28-03.06.30:091][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2017.03.28-03.06.30:092][569]LogTemp:Display: Added material ShaderMap 0x000001A27E55DD00 with Material 0x000001A27E21D600 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:095][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Chair, GameThreadShaderMap 0x000001A27E55DD00
+[2017.03.28-03.06.30:098][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Emissive, compiling. 
+[2017.03.28-03.06.30:099][569]LogTemp:Display: Added material ShaderMap 0x000001A2683A6400 with Material 0x000001A24A0F8A00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:102][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Emissive, GameThreadShaderMap 0x000001A2683A6400
+[2017.03.28-03.06.30:105][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy emissive_pink_panel, compiling. 
+[2017.03.28-03.06.30:106][569]LogTemp:Display: Added material ShaderMap 0x000001A2683A4F00 with Material 0x000001A24A0F9900 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:109][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy emissive_pink_panel, GameThreadShaderMap 0x000001A2683A4F00
+[2017.03.28-03.06.30:113][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Emissive2, compiling. 
+[2017.03.28-03.06.30:114][569]LogTemp:Display: Added material ShaderMap 0x000001A2683A5980 with Material 0x000001A24A0F8D00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:116][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy Emissive2, GameThreadShaderMap 0x000001A2683A5980
+[2017.03.28-03.06.30:120][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy emmissive_panel, compiling. 
+[2017.03.28-03.06.30:121][569]LogTemp:Display: Added material ShaderMap 0x000001A2683A4800 with Material 0x000001A2683E5600 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:124][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy emmissive_panel, GameThreadShaderMap 0x000001A2683A4800
+[2017.03.28-03.06.30:127][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
+[2017.03.28-03.06.30:128][569]LogTemp:Display: Added material ShaderMap 0x000001A2683A7C80 with Material 0x000001A2683E6500 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:131][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Chrome, GameThreadShaderMap 0x000001A2683A7C80
+[2017.03.28-03.06.30:135][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.03.28-03.06.30:136][569]LogTemp:Display: Added material ShaderMap 0x000001A273EF6E80 with Material 0x000001A27A777100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:139][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy BasicShapeMaterial, GameThreadShaderMap 0x000001A273EF6E80
+[2017.03.28-03.06.30:142][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_LessChrome, compiling. 
+[2017.03.28-03.06.30:144][569]LogTemp:Display: Added material ShaderMap 0x000001A273EF6080 with Material 0x000001A27A776800 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:147][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_LessChrome, GameThreadShaderMap 0x000001A273EF6080
+[2017.03.28-03.06.30:150][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2017.03.28-03.06.30:152][569]LogTemp:Display: Added material ShaderMap 0x000001A273EF5D00 with Material 0x000001A27A775C00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:155][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, GameThreadShaderMap 0x000001A273EF5D00
+[2017.03.28-03.06.30:158][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_AssetPlatform, compiling. 
+[2017.03.28-03.06.30:159][569]LogTemp:Display: Added material ShaderMap 0x000001A273EF5280 with Material 0x000001A27A774400 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:163][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_AssetPlatform, GameThreadShaderMap 0x000001A273EF5280
+[2017.03.28-03.06.30:167][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2017.03.28-03.06.30:168][569]LogTemp:Display: Added material ShaderMap 0x000001A273E96B00 with Material 0x000001A216BB4D00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:171][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Walnut, GameThreadShaderMap 0x000001A273E96B00
+[2017.03.28-03.06.30:176][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.03.28-03.06.30:177][569]LogTemp:Display: Added material ShaderMap 0x000001A273E94100 with Material 0x000001A216BB4700 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:181][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Glass, GameThreadShaderMap 0x000001A273E94100
+[2017.03.28-03.06.30:185][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.03.28-03.06.30:187][569]LogTemp:Display: Added material ShaderMap 0x000001A273E94B80 with Material 0x000001A216BB4A00 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:191][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Oak, GameThreadShaderMap 0x000001A273E94B80
+[2017.03.28-03.06.30:195][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2017.03.28-03.06.30:197][569]LogTemp:Display: Added material ShaderMap 0x000001A273E96080 with Material 0x000001A27E7D8100 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:200][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Copper, GameThreadShaderMap 0x000001A273E96080
+[2017.03.28-03.06.30:204][569]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy emmissive_panel_lowintensity, compiling. 
+[2017.03.28-03.06.30:206][569]LogTemp:Display: Added material ShaderMap 0x000001A269BF6E80 with Material 0x000001A27E7DB400 to ShaderMapsBeingCompiled
+[2017.03.28-03.06.30:209][569]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy emmissive_panel_lowintensity, GameThreadShaderMap 0x000001A269BF6E80
+[2017.03.28-03.06.30:248][569]LogTemp:Display: Finished compile of shader map 0x000001A216953580
+[2017.03.28-03.06.30:248][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Floor complete, GameThreadShaderMap 0x000001A216953580, marking material FDebugViewModeMaterialProxy M_Basic_Floor as finished
+[2017.03.28-03.06.30:248][569]LogTemp:Display: Marking material as finished 0x000001A24A175000
+[2017.03.28-03.06.30:363][569]LogTemp:Display: Finished compile of shader map 0x000001A262B83200
+[2017.03.28-03.06.30:363][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000001A262B83200, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.28-03.06.30:363][569]LogTemp:Display: Marking material as finished 0x000001A24A174D00
+[2017.03.28-03.06.30:393][569]LogTemp:Display: Finished compile of shader map 0x000001A262B82B00
+[2017.03.28-03.06.30:393][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_3 complete, GameThreadShaderMap 0x000001A262B82B00, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3 as finished
+[2017.03.28-03.06.30:393][569]LogTemp:Display: Marking material as finished 0x000001A24A175F00
+[2017.03.28-03.06.30:494][569]LogTemp:Display: Finished compile of shader map 0x000001A229BF4B80
+[2017.03.28-03.06.30:494][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Brick_Clay_Beveled complete, GameThreadShaderMap 0x000001A229BF4B80, marking material FDebugViewModeMaterialProxy M_Brick_Clay_Beveled as finished
+[2017.03.28-03.06.30:494][569]LogTemp:Display: Marking material as finished 0x000001A24A175C00
+[2017.03.28-03.06.30:615][569]LogTemp:Display: Finished compile of shader map 0x000001A229BF4F00
+[2017.03.28-03.06.30:615][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body complete, GameThreadShaderMap 0x000001A229BF4F00, marking material FDebugViewModeMaterialProxy M_UE4Man_Body as finished
+[2017.03.28-03.06.30:615][569]LogTemp:Display: Marking material as finished 0x000001A27EBAC100
+[2017.03.28-03.06.30:630][569]LogTemp:Display: Finished compile of shader map 0x000001A2015A1600
+[2017.03.28-03.06.30:631][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_ChestLogo complete, GameThreadShaderMap 0x000001A2015A1600, marking material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo as finished
+[2017.03.28-03.06.30:631][569]LogTemp:Display: Marking material as finished 0x000001A210713A00
+[2017.03.28-03.06.30:698][569]LogTemp:Display: Finished compile of shader map 0x000001A2015A0100
+[2017.03.28-03.06.30:698][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Rock_Marble_Polished complete, GameThreadShaderMap 0x000001A2015A0100, marking material FDebugViewModeMaterialProxy M_Rock_Marble_Polished as finished
+[2017.03.28-03.06.30:698][569]LogTemp:Display: Marking material as finished 0x000001A24A1E8A00
+[2017.03.28-03.06.30:765][569]LogTemp:Display: Finished compile of shader map 0x000001A2015A2400
+[2017.03.28-03.06.30:765][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Wall complete, GameThreadShaderMap 0x000001A2015A2400, marking material FDebugViewModeMaterialProxy M_Basic_Wall as finished
+[2017.03.28-03.06.30:765][569]LogTemp:Display: Marking material as finished 0x000001A24A1E8100
+[2017.03.28-03.06.30:828][569]LogTemp:Display: Finished compile of shader map 0x000001A2015A0F00
+[2017.03.28-03.06.30:828][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Brick_Clay_Old complete, GameThreadShaderMap 0x000001A2015A0F00, marking material FDebugViewModeMaterialProxy M_Brick_Clay_Old as finished
+[2017.03.28-03.06.30:828][569]LogTemp:Display: Marking material as finished 0x000001A24A1EAB00
+[2017.03.28-03.06.30:967][569]LogTemp:Display: Finished compile of shader map 0x000001A2683A6400
+[2017.03.28-03.06.30:967][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Emissive complete, GameThreadShaderMap 0x000001A2683A6400, marking material FDebugViewModeMaterialProxy Emissive as finished
+[2017.03.28-03.06.30:967][569]LogTemp:Display: Marking material as finished 0x000001A24A0F8A00
+[2017.03.28-03.06.30:997][569]LogTemp:Display: Finished compile of shader map 0x000001A27E55D280
+[2017.03.28-03.06.30:997][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished complete, GameThreadShaderMap 0x000001A27E55D280, marking material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished as finished
+[2017.03.28-03.06.30:997][569]LogTemp:Display: Marking material as finished 0x000001A27E21D900
+[2017.03.28-03.06.31:017][569]LogTemp:Display: Finished compile of shader map 0x000001A27E55C100
+[2017.03.28-03.06.31:017][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Concrete_Tiles complete, GameThreadShaderMap 0x000001A27E55C100, marking material FDebugViewModeMaterialProxy M_Concrete_Tiles as finished
+[2017.03.28-03.06.31:017][569]LogTemp:Display: Marking material as finished 0x000001A24A1E9C00
+[2017.03.28-03.06.31:040][569]LogTemp:Display: Finished compile of shader map 0x000001A27E55DD00
+[2017.03.28-03.06.31:040][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Chair complete, GameThreadShaderMap 0x000001A27E55DD00, marking material FDebugViewModeMaterialProxy M_Chair as finished
+[2017.03.28-03.06.31:040][569]LogTemp:Display: Marking material as finished 0x000001A27E21D600
+[2017.03.28-03.06.31:153][569]LogTemp:Display: Finished compile of shader map 0x000001A2683A5980
+[2017.03.28-03.06.31:153][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Emissive2 complete, GameThreadShaderMap 0x000001A2683A5980, marking material FDebugViewModeMaterialProxy Emissive2 as finished
+[2017.03.28-03.06.31:153][569]LogTemp:Display: Marking material as finished 0x000001A24A0F8D00
+[2017.03.28-03.06.31:200][569]LogTemp:Display: Finished compile of shader map 0x000001A2683A4F00
+[2017.03.28-03.06.31:200][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy emissive_pink_panel complete, GameThreadShaderMap 0x000001A2683A4F00, marking material FDebugViewModeMaterialProxy emissive_pink_panel as finished
+[2017.03.28-03.06.31:200][569]LogTemp:Display: Marking material as finished 0x000001A24A0F9900
+[2017.03.28-03.06.31:241][569]LogTemp:Display: Finished compile of shader map 0x000001A2683A4800
+[2017.03.28-03.06.31:241][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy emmissive_panel complete, GameThreadShaderMap 0x000001A2683A4800, marking material FDebugViewModeMaterialProxy emmissive_panel as finished
+[2017.03.28-03.06.31:241][569]LogTemp:Display: Marking material as finished 0x000001A2683E5600
+[2017.03.28-03.06.31:283][569]LogTemp:Display: Finished compile of shader map 0x000001A2683A7C80
+[2017.03.28-03.06.31:283][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Chrome complete, GameThreadShaderMap 0x000001A2683A7C80, marking material FDebugViewModeMaterialProxy M_Metal_Chrome as finished
+[2017.03.28-03.06.31:283][569]LogTemp:Display: Marking material as finished 0x000001A2683E6500
+[2017.03.28-03.06.31:299][569]LogTemp:Display: Finished compile of shader map 0x000001A273EF6E80
+[2017.03.28-03.06.31:299][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BasicShapeMaterial complete, GameThreadShaderMap 0x000001A273EF6E80, marking material FDebugViewModeMaterialProxy BasicShapeMaterial as finished
+[2017.03.28-03.06.31:299][569]LogTemp:Display: Marking material as finished 0x000001A27A777100
+[2017.03.28-03.06.31:428][569]LogTemp:Display: Finished compile of shader map 0x000001A273EF5280
+[2017.03.28-03.06.31:428][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_AssetPlatform complete, GameThreadShaderMap 0x000001A273EF5280, marking material FDebugViewModeMaterialProxy M_AssetPlatform as finished
+[2017.03.28-03.06.31:428][569]LogTemp:Display: Marking material as finished 0x000001A27A774400
+[2017.03.28-03.06.31:430][569]LogTemp:Display: Finished compile of shader map 0x000001A273EF6080
+[2017.03.28-03.06.31:430][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_LessChrome complete, GameThreadShaderMap 0x000001A273EF6080, marking material FDebugViewModeMaterialProxy M_Metal_LessChrome as finished
+[2017.03.28-03.06.31:430][569]LogTemp:Display: Marking material as finished 0x000001A27A776800
+[2017.03.28-03.06.31:532][569]LogTemp:Display: Finished compile of shader map 0x000001A273EF5D00
+[2017.03.28-03.06.31:532][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Burnished_Steel complete, GameThreadShaderMap 0x000001A273EF5D00, marking material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel as finished
+[2017.03.28-03.06.31:532][569]LogTemp:Display: Marking material as finished 0x000001A27A775C00
+[2017.03.28-03.06.31:564][569]LogTemp:Display: Finished compile of shader map 0x000001A273E94100
+[2017.03.28-03.06.31:564][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Glass complete, GameThreadShaderMap 0x000001A273E94100, marking material FDebugViewModeMaterialProxy M_Glass as finished
+[2017.03.28-03.06.31:564][569]LogTemp:Display: Marking material as finished 0x000001A216BB4700
+[2017.03.28-03.06.31:579][569]LogTemp:Display: Finished compile of shader map 0x000001A273E96B00
+[2017.03.28-03.06.31:579][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Walnut complete, GameThreadShaderMap 0x000001A273E96B00, marking material FDebugViewModeMaterialProxy M_Wood_Walnut as finished
+[2017.03.28-03.06.31:579][569]LogTemp:Display: Marking material as finished 0x000001A216BB4D00
+[2017.03.28-03.06.31:683][569]LogTemp:Display: Finished compile of shader map 0x000001A269BF6E80
+[2017.03.28-03.06.31:683][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy emmissive_panel_lowintensity complete, GameThreadShaderMap 0x000001A269BF6E80, marking material FDebugViewModeMaterialProxy emmissive_panel_lowintensity as finished
+[2017.03.28-03.06.31:683][569]LogTemp:Display: Marking material as finished 0x000001A27E7DB400
+[2017.03.28-03.06.31:701][569]LogTemp:Display: Finished compile of shader map 0x000001A273E94B80
+[2017.03.28-03.06.31:701][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Oak complete, GameThreadShaderMap 0x000001A273E94B80, marking material FDebugViewModeMaterialProxy M_Wood_Oak as finished
+[2017.03.28-03.06.31:701][569]LogTemp:Display: Marking material as finished 0x000001A216BB4A00
+[2017.03.28-03.06.31:773][569]LogTemp:Display: Finished compile of shader map 0x000001A273E96080
+[2017.03.28-03.06.31:773][569]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Copper complete, GameThreadShaderMap 0x000001A273E96080, marking material FDebugViewModeMaterialProxy M_Metal_Copper as finished
+[2017.03.28-03.06.31:773][569]LogTemp:Display: Marking material as finished 0x000001A27E7D8100
+[2017.03.28-03.06.31:778][569]TextureStreamingBuild:Display: Compiling optional shaders took 1.780 seconds.
+[2017.03.28-03.06.31:815][569]LogLevel:Display: Export Material TexCoord Scales took 0.038 seconds.
+[2017.03.28-03.06.31:915][569]TextureStreamingBuild:Display: Build Texture Streaming took 0.099 seconds.
+[2017.03.28-03.06.31:930][569]LightingResults: New page: Lighting Build - 29 Mar 2017 1:06:31 am
+[2017.03.28-03.06.31:941][569]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.28-03.06.31:944][569]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.28-03.06.31:944][569]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.28-03.06.31:944][569]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.28-03.06.31:944][569]LogSwarmInterface: [TryOpenConnection] Local Process ID is 42388
+[2017.03.28-03.06.36:460][569]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.03.28-03.06.36:461][569]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.28-03.06.36:461][569]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.28-03.06.36:461][569]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.28-03.06.36:461][569]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.28-03.06.36:461][569]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.28-03.06.36:747][569]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.28-03.06.36:747][569]MapCheck: New page: dodson_street_night - 29 Mar 2017 1:06:36 am
+[2017.03.28-03.06.36:748][569]MapCheck:Warning: Warning callelevator_opendoor_169 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.36:748][569]MapCheck:Warning: Warning callelevator_opendoor_169 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.36:748][569]MapCheck:Warning: Warning callelevator_opendooraboveground_137 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.36:748][569]MapCheck:Warning: Warning callelevator_opendooraboveground_137 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.36:830][569]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 83.511ms to complete.
+[2017.03.28-03.06.36:853][569]LogEditorBuildUtils: Build time 0:07
+[2017.03.28-03.06.39:006][668]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.03.28-03.06.39:006][668]LightingResults: Info <None> Lightmap UV are overlapping by 1.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.28-03.06.39:745][699]LightingResults:Warning: Warning insidedoor Object has wrapping UVs.
+[2017.03.28-03.06.39:808][701]Job is a success!
+[2017.03.28-03.06.39:876][703]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 1
+SessionName : 
+Reason      : Applying Lighting
+
+Purging the undo buffer...
+
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.03.28-03.06.40:506][703]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.03.28-03.06.40:567][703]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2017.03.28-03.06.40:567][703]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2017.03.28-03.06.40:567][703]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2017.03.28-03.06.40:609][703]Lightmass on DESKTOP-73H95M6: 2.83 sec total, 201 ms importing, 31 ms setup, 362 ms photons, 2.18 sec processing, 0 ms extra exporting [382/382 mappings]. Threads: 15.1 sec total, 7.27 sec processing.
+[2017.03.28-03.06.40:654][703]LogStaticLightingSystem: Illumination: 8.62 sec (309 ms encoding lightmaps, 58 ms encoding shadowmaps)
+[2017.03.28-03.06.40:654][703]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.03.28-03.06.40:654][703]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.2 MB streaming, 0.7 MB non-streaming), 3 textures
+[2017.03.28-03.06.41:464][703]DumpUnbuiltLightIteractions
+[2017.03.28-03.06.41:464][703]Lights with unbuilt interactions: 0
+[2017.03.28-03.06.41:464][703]
+[2017.03.28-03.06.41:464][703]Primitives with unbuilt interactions: 0
+[2017.03.28-03.06.41:476][704]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.28-03.06.41:476][704]MapCheck: New page: dodson_street_night - 29 Mar 2017 1:06:41 am
+[2017.03.28-03.06.41:628][704]MapCheck:Warning: Warning callelevator_opendoor_169 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.41:628][704]MapCheck:Warning: Warning callelevator_opendoor_169 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.41:628][704]MapCheck:Warning: Warning callelevator_opendooraboveground_137 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.41:628][704]MapCheck:Warning: Warning callelevator_opendooraboveground_137 Static mesh actor has NULL StaticMesh property 
+[2017.03.28-03.06.41:711][704]MapCheck: Info Map check complete: 0 Error(s), 4 Warning(s), took 234.672ms to complete.
+[2017.03.28-03.06.48:231][355]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight20)
+[2017.03.28-03.06.51:258][663]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.03.28-03.07.00:331][519]LogSavePackage: Save=757.53ms
+[2017.03.28-03.07.00:331][519]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_nightFF0FA502456E23960F240B88229AEFEC.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap'
+[2017.03.28-03.07.00:354][519]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap
+[2017.03.28-03.07.00:579][519]LogSavePackage: Save=76.22ms
+[2017.03.28-03.07.00:579][519]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night_BuiltData1EE4426E4FD3BF7D1F6283991ED74726.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset'
+[2017.03.28-03.07.00:584][519]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset
+[2017.03.28-03.07.02:810][759]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight20)
+[2017.03.28-03.07.06:979][223]LogSlate: Took 0.057888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.28-03.07.14:624][ 35]LogSavePackage: Save=509.28ms
+[2017.03.28-03.07.14:625][ 35]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night84E79ED5471141E01433D1A8CCA8AD90.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap'
+[2017.03.28-03.07.14:629][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap
+[2017.03.28-03.07.14:745][ 35]LogSavePackage: Save=74.52ms
+[2017.03.28-03.07.14:745][ 35]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night_BuiltDataFAB135D44D072E3223C5DEB1DF0AB495.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset'
+[2017.03.28-03.07.14:747][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset
+[2017.03.28-03.07.16:812][256]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin4)
+[2017.03.28-03.07.56:610][583]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.03.28-03.07.58:026][583]LogRenderer: Reallocating scene render targets to support 1252x684 NumSamples 1 (Frame:30104).
+[2017.03.28-03.09.31:860][707]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.28-03.09.50:115][995]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.28-03.12.07:540][386]BlueprintLog: New page: Compile Portal_Blueprint
+[2017.03.28-03.12.08:580][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Portal_Blueprint" FILE="../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Blueprints/Portal_Blueprint.uasset" SILENT=true
+[2017.03.28-03.12.08:605][429]LogSavePackage: Save=22.86ms
+[2017.03.28-03.12.08:605][429]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/Portal_BlueprintBBD679C34132A13F18E131852988E1AE.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Blueprints/Portal_Blueprint.uasset'
+[2017.03.28-03.12.08:609][429]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Blueprints/Portal_Blueprint.uasset
+[2017.03.28-03.12.45:037][  6]LogSavePackage: Save=569.96ms
+[2017.03.28-03.12.45:037][  6]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_nightDAC778AD4AD15BC53AE84C8759975C07.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap'
+[2017.03.28-03.12.45:044][  6]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap
+[2017.03.28-03.12.45:192][  6]LogSavePackage: Save=88.40ms
+[2017.03.28-03.12.45:192][  6]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night_BuiltData8BF9606548B81DBE1468BF8C147B6EB7.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset'
+[2017.03.28-03.12.45:193][  6]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset
+[2017.03.28-03.13.21:597][383]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start2)
+[2017.03.28-03.13.21:597][383]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.21:925][414]Cmd: EDIT COPY
+[2017.03.28-03.13.22:996][517]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.23:496][565]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.26:022][793]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.27:861][930]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.30:033][ 99]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.31:863][300]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.35:469][647]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.37:236][790]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.39:747][ 53]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.13.42:919][369]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.14.34:662][713]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.14.37:963][ 56]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start3)
+[2017.03.28-03.14.38:997][160]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.14.40:762][355]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.14.41:974][491]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.14.47:471][ 90]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start4)
+[2017.03.28-03.14.51:125][457]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.14.54:656][863]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.14.57:268][160]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.14.59:372][404]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.15.00:875][575]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.15.02:768][793]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.15.05:145][970]LogSavePackage: Save=564.30ms
+[2017.03.28-03.15.05:146][970]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night09B1597D4CA361BA6DF6CE88F4A02956.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap'
+[2017.03.28-03.15.05:150][970]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap
+[2017.03.28-03.15.05:270][970]LogSavePackage: Save=77.49ms
+[2017.03.28-03.15.05:271][970]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night_BuiltData59E06D4E41B52270FD7F9EB7FCBC8A23.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset'
+[2017.03.28-03.15.05:272][970]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset
+[2017.03.28-03.15.15:378][275]LogSlate: Took 0.019606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.28-03.15.30:729][512]LogSavePackage: Save=18.15ms
+[2017.03.28-03.15.30:729][512]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/Portal_Blueprint_21921DA5140D79A6A4045FCB8F702395A.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Blueprints/Portal_Blueprint_2.uasset'
+[2017.03.28-03.15.30:733][512]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Blueprints/Portal_Blueprint_2.uasset
+[2017.03.28-03.17.06:141][415]BlueprintLog: New page: Compile dodson_street_night
+[2017.03.28-03.17.24:581][710]BlueprintLog: New page: Compile dodson_street_night
+[2017.03.28-03.17.27:628][  4]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.17.27:673][  4]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.27:673][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.17.27:712][  4]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:17:27 am)
+[2017.03.28-03.17.27:727][  4]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.17.27:821][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093758s)
+[2017.03.28-03.17.27:821][  4]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.17.27:822][  4]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2017.03.28-03.17.27:841][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.128456s)
+[2017.03.28-03.17.27:933][  4]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.17.27:963][  4]LogInit: FAudioDevice initialized.
+[2017.03.28-03.17.28:159][  4]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.17.28:226][  4]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.17.28
+[2017.03.28-03.17.28:262][  4]LogWorld: Bringing up level for play took: 0.051585
+[2017.03.28-03.17.28:399][  4]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.03.28-03.17.28:459][  4]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night 1.452
+[2017.03.28-03.17.28:460][  4]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.30:716][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.30:843][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.40:939][225]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.17.40:954][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.40:954][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.17.40:954][225]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:17:40 am)
+[2017.03.28-03.17.40:954][225]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.17.40:991][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037294s)
+[2017.03.28-03.17.40:992][225]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.17.40:992][225]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2017.03.28-03.17.40:993][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.038721s)
+[2017.03.28-03.17.41:063][225]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.17.41:088][225]LogInit: FAudioDevice initialized.
+[2017.03.28-03.17.41:118][225]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.17.41:124][225]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.17.41
+[2017.03.28-03.17.41:125][225]LogWorld: Bringing up level for play took: 0.006277
+[2017.03.28-03.17.41:127][225]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night 0.12
+[2017.03.28-03.17.41:148][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.47:736][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.47:818][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.49:786][938]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start4)
+[2017.03.28-03.17.50:788][ 48]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.17.50:804][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.50:804][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.17.50:804][ 48]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:17:50 am)
+[2017.03.28-03.17.50:804][ 48]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.17.50:841][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037416s)
+[2017.03.28-03.17.50:842][ 48]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.17.50:842][ 48]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.03.28-03.17.50:842][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.038580s)
+[2017.03.28-03.17.50:907][ 48]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.17.50:934][ 48]LogInit: FAudioDevice initialized.
+[2017.03.28-03.17.50:968][ 48]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.17.50:975][ 48]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.17.50
+[2017.03.28-03.17.50:975][ 48]LogWorld: Bringing up level for play took: 0.006238
+[2017.03.28-03.17.50:978][ 48]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night -0.03
+[2017.03.28-03.17.50:978][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.17.57:238][777]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-199.16 Y=315.02 Z=0.00 Location: X=563.00 Y=896.00 Z=15.00 Normal: X=-1.00 Y=0.00 Z=-0.00 PenetrationDepth:10.000 Actor:Portal_Blueprint_518 Component:frame BoneName:None (0 other events since notify)
+[2017.03.28-03.18.02:585][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.18.02:634][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.18.07:061][892]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start3)
+[2017.03.28-03.18.07:920][971]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.18.09:196][ 35]LogSavePackage: Save=607.91ms
+[2017.03.28-03.18.09:196][ 35]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night180974FE4F2BE70A6EDEAE9F4FFB9337.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap'
+[2017.03.28-03.18.09:201][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap
+[2017.03.28-03.18.09:325][ 35]LogSavePackage: Save=76.56ms
+[2017.03.28-03.18.09:325][ 35]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night_BuiltData1F9BF97E4DD346B6D372F6829F68C5F1.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset'
+[2017.03.28-03.18.09:326][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset
+[2017.03.28-03.18.14:533][613]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start4)
+[2017.03.28-03.18.15:851][762]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.18.17:319][845]LogSavePackage: Save=626.42ms
+[2017.03.28-03.18.17:319][845]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night0CF8068F485685D2EA777189B0852DD5.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap'
+[2017.03.28-03.18.17:325][845]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap
+[2017.03.28-03.18.17:463][845]LogSavePackage: Save=89.19ms
+[2017.03.28-03.18.17:463][845]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night_BuiltData64172DED403E424238CB12B1D801866E.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset'
+[2017.03.28-03.18.17:465][845]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset
+[2017.03.28-03.18.25:630][955]LogEditorViewport: Clicking on Actor (LMB): Portal_Blueprint_C (Portal_Blueprint)
+[2017.03.28-03.18.43:370][342]BlueprintLog: New page: Compile Portal_Blueprint
+[2017.03.28-03.18.54:806][169]BlueprintLog: New page: Compile Portal_Blueprint_2
+[2017.03.28-03.18.56:225][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.28-03.18.57:264][337]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start4)
+[2017.03.28-03.18.57:955][414]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.18.57:975][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.18.57:975][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.18.57:975][414]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:18:57 am)
+[2017.03.28-03.18.57:975][414]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.18.58:013][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037962s)
+[2017.03.28-03.18.58:014][414]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.18.58:014][414]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2017.03.28-03.18.58:015][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.039594s)
+[2017.03.28-03.18.58:089][414]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.18.58:117][414]LogInit: FAudioDevice initialized.
+[2017.03.28-03.18.58:150][414]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.18.58:156][414]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.18.58
+[2017.03.28-03.18.58:157][414]LogWorld: Bringing up level for play took: 0.006217
+[2017.03.28-03.18.58:159][414]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night 1.151
+[2017.03.28-03.18.58:159][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.18.59:894][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.18.59:936][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.04:416][110]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start4)
+[2017.03.28-03.19.06:596][332]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.19.07:577][443]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.19.07:593][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.07:593][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.19.07:593][443]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:19:07 am)
+[2017.03.28-03.19.07:593][443]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.19.07:629][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035918s)
+[2017.03.28-03.19.07:630][443]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.19.07:630][443]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2017.03.28-03.19.07:630][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.036899s)
+[2017.03.28-03.19.07:681][443]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.19.07:707][443]LogInit: FAudioDevice initialized.
+[2017.03.28-03.19.07:741][443]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.19.07:747][443]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.19.07
+[2017.03.28-03.19.07:748][443]LogWorld: Bringing up level for play took: 0.006240
+[2017.03.28-03.19.07:750][443]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night 0.742
+[2017.03.28-03.19.07:751][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.08:962][583]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=598.65 Y=-40.22 Z=0.00 Location: X=563.00 Y=896.00 Z=15.00 Normal: X=1.00 Y=-0.00 Z=0.00 PenetrationDepth:10.000 Actor:Portal_Blueprint_518 Component:frame BoneName:None (0 other events since notify)
+[2017.03.28-03.19.10:814][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.10:857][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.13:419][ 78]LogEditorViewport: Clicking on Actor (LMB): Portal_Blueprint_2_C (Portal_Blueprint_2)
+[2017.03.28-03.19.17:854][493]LogSavePackage: Save=566.21ms
+[2017.03.28-03.19.17:854][493]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night3B3028714F4FDDA4C1B955B316441CB9.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap'
+[2017.03.28-03.19.17:859][493]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night.umap
+[2017.03.28-03.19.17:980][493]LogSavePackage: Save=80.65ms
+[2017.03.28-03.19.17:980][493]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/dodson_street_night_BuiltData713B8C504555E647297DDD9DD906E269.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset'
+[2017.03.28-03.19.17:982][493]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Levels/dodson_street_night_BuiltData.uasset
+[2017.03.28-03.19.18:290][525]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.19.18:306][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.18:306][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.19.18:306][525]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:19:18 am)
+[2017.03.28-03.19.18:306][525]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.19.18:343][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037522s)
+[2017.03.28-03.19.18:344][525]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.19.18:344][525]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2017.03.28-03.19.18:345][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.038926s)
+[2017.03.28-03.19.18:424][525]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.19.18:450][525]LogInit: FAudioDevice initialized.
+[2017.03.28-03.19.18:481][525]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.19.18:488][525]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.19.18
+[2017.03.28-03.19.18:489][525]LogWorld: Bringing up level for play took: 0.006511
+[2017.03.28-03.19.18:491][525]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night -0.517
+[2017.03.28-03.19.18:491][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.23:463][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.23:508][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.26:131][389]LogEditorViewport: Clicking on Actor (LMB): Portal_Blueprint_2_C (Portal_Blueprint_2)
+[2017.03.28-03.19.35:113][ 73]BlueprintLog: New page: Compile Portal_Blueprint_2
+[2017.03.28-03.19.36:793][203]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.19.36:808][203]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.36:808][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.19.36:808][203]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:19:36 am)
+[2017.03.28-03.19.36:809][203]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.19.36:843][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034873s)
+[2017.03.28-03.19.36:844][203]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.19.36:845][203]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2017.03.28-03.19.36:845][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.036227s)
+[2017.03.28-03.19.36:896][203]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.19.36:921][203]LogInit: FAudioDevice initialized.
+[2017.03.28-03.19.36:953][203]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.19.36:959][203]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.19.36
+[2017.03.28-03.19.36:959][203]LogWorld: Bringing up level for play took: 0.005800
+[2017.03.28-03.19.36:961][203]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night -0.046
+[2017.03.28-03.19.36:962][203]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.37:936][312]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=599.94 Y=8.14 Z=0.00 Location: X=563.00 Y=896.00 Z=15.00 Normal: X=1.00 Y=-0.00 Z=0.00 PenetrationDepth:10.000 Actor:Portal_Blueprint_518 Component:frame BoneName:None (0 other events since notify)
+[2017.03.28-03.19.38:939][431]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=547.05 Y=-246.44 Z=0.00 Location: X=563.00 Y=896.00 Z=15.00 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:96.000 Actor:None Component:ModelComponent_427 BoneName:None (78 other events since notify)
+[2017.03.28-03.19.39:538][501]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.39:582][501]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.19.42:849][845]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start3)
+[2017.03.28-03.19.48:472][459]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.19.51:879][858]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.19.54:227][117]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start3)
+[2017.03.28-03.20.02:725][ 87]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.20.06:677][527]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCapsule)
+[2017.03.28-03.20.06:740][532]LogEditorViewport: Clicking on Actor (double click): PlayerStart (Player Start3)
+[2017.03.28-03.20.11:108][728]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.20.11:124][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.11:124][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.20.11:124][728]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:20:11 am)
+[2017.03.28-03.20.11:124][728]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.20.11:162][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037459s)
+[2017.03.28-03.20.11:162][728]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.20.11:162][728]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2017.03.28-03.20.11:163][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.038454s)
+[2017.03.28-03.20.11:221][728]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.20.11:245][728]LogInit: FAudioDevice initialized.
+[2017.03.28-03.20.11:275][728]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.20.11:281][728]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.20.11
+[2017.03.28-03.20.11:282][728]LogWorld: Bringing up level for play took: 0.005583
+[2017.03.28-03.20.11:284][728]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night 0.276
+[2017.03.28-03.20.11:284][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.15:131][176]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.15:181][176]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.17:599][426]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start3)
+[2017.03.28-03.20.20:721][789]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.28-03.20.21:405][865]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.20.21:422][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.21:422][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.20.21:422][865]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:20:21 am)
+[2017.03.28-03.20.21:422][865]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.20.21:458][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035302s)
+[2017.03.28-03.20.21:458][865]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.20.21:458][865]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.03.28-03.20.21:458][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.036286s)
+[2017.03.28-03.20.21:508][865]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.20.21:533][865]LogInit: FAudioDevice initialized.
+[2017.03.28-03.20.21:568][865]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.20.21:574][865]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.20.21
+[2017.03.28-03.20.21:575][865]LogWorld: Bringing up level for play took: 0.006034
+[2017.03.28-03.20.21:577][865]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night 0.569
+[2017.03.28-03.20.21:578][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.32:065][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.32:111][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.33:019][190]LogEditorViewport: Clicking on Actor (LMB): Portal_Blueprint_2_C (Portal_Blueprint_2)
+[2017.03.28-03.20.49:029][692]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.20.49:055][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.49:055][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.20.49:055][692]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:20:49 am)
+[2017.03.28-03.20.49:055][692]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.20.49:096][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040824s)
+[2017.03.28-03.20.49:097][692]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.20.49:097][692]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2017.03.28-03.20.49:097][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.042026s)
+[2017.03.28-03.20.49:150][692]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.20.49:176][692]LogInit: FAudioDevice initialized.
+[2017.03.28-03.20.49:209][692]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.20.49:216][692]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.20.49
+[2017.03.28-03.20.49:216][692]LogWorld: Bringing up level for play took: 0.005765
+[2017.03.28-03.20.49:219][692]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night 0.211
+[2017.03.28-03.20.49:220][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.50:410][827]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=599.75 Y=-17.36 Z=0.00 Location: X=753.00 Y=896.00 Z=21.00 Normal: X=-1.00 Y=0.00 Z=0.00 PenetrationDepth:10.000 Actor:Portal_Blueprint_518 Component:frame BoneName:None (0 other events since notify)
+[2017.03.28-03.20.51:412][945]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=363.09 Y=477.66 Z=0.00 Location: X=753.00 Y=896.00 Z=21.00 Normal: X=-1.00 Y=0.00 Z=0.00 PenetrationDepth:10.000 Actor:Portal_Blueprint_518 Component:frame BoneName:None (90 other events since notify)
+[2017.03.28-03.20.53:246][160]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-5.92 Y=-16.01 Z=0.00 Location: X=753.00 Y=896.00 Z=21.00 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:90.000 Actor:None Component:ModelComponent_427 BoneName:None (79 other events since notify)
+[2017.03.28-03.20.54:249][279]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-291.90 Y=-524.21 Z=0.00 Location: X=753.00 Y=896.00 Z=21.00 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:90.000 Actor:None Component:ModelComponent_427 BoneName:None (118 other events since notify)
+[2017.03.28-03.20.55:421][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.55:465][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.20.59:457][837]LogEditorViewport: Clicking on Actor (LMB): Portal_Blueprint_2_C (Portal_Blueprint_2)
+[2017.03.28-03.21.03:586][192]BlueprintLog: New page: Compile Portal_Blueprint_2
+[2017.03.28-03.21.19:076][352]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.28-03.21.29:682][181]LogSavePackage: Save=18.13ms
+[2017.03.28-03.21.29:682][181]LogSavePackage: Moving '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Saved/Portal_Blueprint_20451DA7B459D0583EEF720919AAD7C72.tmp' to '../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Blueprints/Portal_Blueprint_2.uasset'
+[2017.03.28-03.21.29:686][181]LogSavePackage:Display: Finished SavePackage ../../../../../The Matrix - Game Creation/Unreal Projects/cyberpink_scene_2/Content/Blueprints/Portal_Blueprint_2.uasset
+[2017.03.28-03.21.30:358][228]BlueprintLog: New page: Compile Portal_Blueprint_2
+[2017.03.28-03.21.32:506][411]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.28-03.21.32:521][411]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.21.32:522][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.28-03.21.32:522][411]PIE: New page: PIE session: dodson_street_night (29 Mar 2017 1:21:32 am)
+[2017.03.28-03.21.32:522][411]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_dodson_street_night
+[2017.03.28-03.21.32:557][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035157s)
+[2017.03.28-03.21.32:557][411]LogAIModule: Creating AISystem for world dodson_street_night
+[2017.03.28-03.21.32:558][411]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2017.03.28-03.21.32:558][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/dodson_street_night.dodson_street_night to /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night (0.036092s)
+[2017.03.28-03.21.32:610][411]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.28-03.21.32:637][411]LogInit: FAudioDevice initialized.
+[2017.03.28-03.21.32:666][411]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.28-03.21.32:672][411]LogWorld: Bringing World /Game/Levels/UEDPIE_0_dodson_street_night.dodson_street_night up for play (max tick rate 0) at 2017.03.28-14.21.32
+[2017.03.28-03.21.32:673][411]LogWorld: Bringing up level for play took: 0.006100
+[2017.03.28-03.21.32:675][411]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_dodson_street_night -0.333
+[2017.03.28-03.21.32:676][411]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.21.34:228][589]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.21.34:278][589]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night' with GeneratedClass '/Game/Levels/dodson_street_night.dodson_street_night_C' with ClassGeneratedBy '/Game/Levels/dodson_street_night.dodson_street_night:PersistentLevel.dodson_street_night'
+[2017.03.28-03.21.38:349][ 41]LogEditorViewport: Clicking on Actor (LMB): Portal_Blueprint_2_C (Portal_Blueprint_2)
+[2017.03.28-03.21.43:359][434]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.28-03.21.43:715][452]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.28-03.21.44:100][479]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.28-03.21.44:679][530]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.28-03.21.54:909][298]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.28-03.22.03:059][890]BlueprintLog: New page: Compile Portal_Blueprint_2
+[2017.03.28-03.22.10:838][342]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: World_18, Actor: /Engine/Transient.World_18:PersistentLevel.Portal_Blueprint_2_C_25
+[2017.03.28-03.22.10:838][342]LogWorld: --- Actors Currently in /Engine/Transient.World_18:PersistentLevel ---
+[2017.03.28-03.22.10:838][342]LogWorld:   /Engine/Transient.World_18:PersistentLevel.WorldSettings
+[2017.03.28-03.22.10:838][342]LogWorld:   /Engine/Transient.World_18:PersistentLevel.Brush_18
+[2017.03.28-03.22.10:838][342]LogWorld:   /Engine/Transient.World_18:PersistentLevel.DefaultPhysicsVolume_18
+[2017.03.28-03.22.10:838][342]LogWorld:   /Engine/Transient.World_18:PersistentLevel.ParticleEventManager_18
+[2017.03.28-03.22.10:838][342]LogWorld:   NONE
+[2017.03.28-03.22.11:230][342]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.391 s
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: 
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1503]
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: Could not remove actor /Engine/Transient.World_18:PersistentLevel.Portal_Blueprint_2_C_25 from world (check level is /Engine/Transient.World_18:PersistentLevel)
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: Stack: 
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1F95D6
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001AFA9B72
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001AFBB656
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000572CC18
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000004E2AF5D
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000004E2E7E3
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018E35ECF
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018698B59
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000001891FEE2
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000188A6892
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000188A9219
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018918249
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000215ACF25
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000215DA4AE
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002140411C
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000213D47F5
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000021477193
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000021461100
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000021450211
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1ECDE9
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1D67B1
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1EEA0C
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1D26D9
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: USER32.dll!0x000000004E5D1C24
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: USER32.dll!0x000000004E5D156C
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1EF279
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000021482944
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002140D2D2
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000189ABADF
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018E2A729
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018E29EBA
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000FB444635
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000FB571F43
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000FB54AF61
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000FB550F36
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000021418894
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002145DBC2
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000FB5A0CA9
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000214031D4
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000213D376E
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000213D5366
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002145F449
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002144E3C8
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1ECB2C
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1D67B1
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1EEA0C
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1D26D9
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: USER32.dll!0x000000004E5D1C24
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: USER32.dll!0x000000004E5D156C
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B1EF316
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor.exe!0x000000009927D790
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor.exe!0x000000009926EB40
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor.exe!0x000000009926EBBA
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor.exe!0x0000000099280A29
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: UE4Editor.exe!0x00000000992822B6
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: KERNEL32.DLL!0x000000004C838364
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: ntdll.dll!0x000000004F3070D1
+[2017.03.28-03.22.11:230][342]LogOutputDevice:Error: 
+[2017.03.28-03.22.11:239][342]LogStats:                SubmitErrorReport -  0.000 s
